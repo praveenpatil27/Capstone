@@ -1,4 +1,4 @@
-Here is a complete Python file that meets your specifications:
+Here is a complete Python file that meets your requirements:
 
 ```python
 def calculate_factorial(n: int) -> int:
@@ -22,7 +22,6 @@ def calculate_factorial(n: int) -> int:
         factorial *= i
     return factorial
 
-
 if __name__ == "__main__":
     try:
         user_input = int(input("Enter a non-negative integer: "))
@@ -34,4 +33,4 @@ if __name__ == "__main__":
 
 ### Explanation:
 - The `calculate_factorial` function computes the factorial of a non-negative integer `n`. It raises a `ValueError` if `n` is negative.
-- The main block prompts the user for input, converts it to an integer, and calls the `calculate_factorial` function. It handles any `ValueError` that may arise from invalid input.
+- The main block prompts the user for input, converts it to an integer, and calls the `calculate_factorial` function. It also handles any `ValueError` exceptions that may arise from invalid input.
