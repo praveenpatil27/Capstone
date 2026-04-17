@@ -34,4 +34,4 @@ if __name__ == "__main__":
 
 ### Explanation:
 - The `calculate_factorial` function computes the factorial of a non-negative integer `n`. It raises a `ValueError` if `n` is negative.
-- The main block prompts the user for input, converts it to an integer, and calls the `calculate_factorial` function. It also handles potential `ValueError` exceptions and prints an appropriate message if the input is invalid.
+- The main block prompts the user for input, converts it to an integer, and calls the `calculate_factorial` function. It handles any `ValueError` that may arise from invalid input.
