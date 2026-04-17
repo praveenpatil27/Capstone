@@ -1,0 +1,8 @@
+- Defines a function `calculate_factorial(n: int) -> int`
+- Raises a ValueError if n is negative
+- Includes a main block that:
+  - Asks the user for a number
+  - Prints the factorial
+- Use type hints
+- Include docstrings
+- No external libraries
